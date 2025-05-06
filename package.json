@@ -1,8 +1,9 @@
 {
   "name": "moneyclick-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "module": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/randomusert/lib/issues"
   },
-  "homepage": "https://github.com/randomusert/lib#readme"
+  "homepage": "https://github.com/randomusert/lib#readme",
+  "exports": {
+    "import": "./src/index.js"
+  }
 }
